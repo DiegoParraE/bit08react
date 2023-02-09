@@ -41,7 +41,7 @@ function createNewTask(taskName) {
       
       <div className="container p-4 col-md-4 offset-md-4">
         <TaskCreator createNewTask = {createNewTask}/>
-        <TaskTable tasks={tasksItems} toggleTask={toggleTask} />
+        <TaskTable tasks={tasksItems} toggleTask={toggleTask} setStateTask={settaskItems} />
         <VisibilityControl
           isChecked={showCompleted}
           setShowCompleted={(checked) =>setShowCompleted (checked)}
@@ -51,7 +51,7 @@ function createNewTask(taskName) {
 
         {
           showCompleted === true && (
-            <TaskTable tasks={tasksItems} toggleTask={toggleTask} showCompleted={showCompleted} />
+            <TaskTable tasks={tasksItems} toggleTask={toggleTask} showCompleted={showCompleted} setStateTask={settaskItems} />
           )
         }
       </div>
