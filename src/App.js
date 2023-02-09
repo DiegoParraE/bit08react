@@ -3,7 +3,7 @@ import "./App.css";
 import { TaskCreator } from "./components/creador_de_tareas";
 import { TaskTable} from './components/TaskTable'
 import { VisibilityControl } from "./components/VisibilityControl";
-function App() {
+function App() { 
   const [tasksItems, settaskItems] = useState([]);
   const [showCompleted, setShowCompleted] = useState(false);
   

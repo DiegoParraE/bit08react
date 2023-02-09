@@ -6,7 +6,7 @@ export const VisibilityControl = ({isChecked, setShowCompleted, cleanTasks}) => 
         }
     }
 
-    return(
+    return( 
         <div className="d-flex justify-content-between bg-secondary text-white text-center p-2 border-secondary" >
             <div className="form-check form-switch" >
                 <input 

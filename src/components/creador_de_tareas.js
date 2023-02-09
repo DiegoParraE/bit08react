@@ -6,7 +6,7 @@ export const TaskCreator = ({createNewTask}) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     createNewTask(newTaskName)
-    setNewTaskName("");
+    setNewTaskName(""); 
   };
 
   return (

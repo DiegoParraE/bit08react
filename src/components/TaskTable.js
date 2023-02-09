@@ -5,7 +5,7 @@ export const TaskTable = ({ tasks, toggleTask, showCompleted= false}) => {
   const taskTableRows = (doneValue) => {
     return (
 
-      tasks
+      tasks 
       .filter(task => task.done === doneValue)
       .map(task => (
       <TaskRow task={task} key={task.name} toggleTask={toggleTask} />

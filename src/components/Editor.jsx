@@ -8,7 +8,7 @@ export default function Editor({name}) {
   return (
     <form onSubmit={editTask} >
         <input type="text" placeholder={name} value={name} />
-        <button type="submit" >Editar</button>    
+        <button type="submit" >Editar</button>     
     </form>
   )
 }
