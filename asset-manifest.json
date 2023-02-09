@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/DiegoParraE/bit08react.git/static/css/main.09d4fc6a.css",
-    "main.js": "/DiegoParraE/bit08react.git/static/js/main.a9d6071a.js",
-    "index.html": "/DiegoParraE/bit08react.git/index.html",
-    "main.09d4fc6a.css.map": "/DiegoParraE/bit08react.git/static/css/main.09d4fc6a.css.map",
-    "main.a9d6071a.js.map": "/DiegoParraE/bit08react.git/static/js/main.a9d6071a.js.map"
+    "main.css": "/bit08react/static/css/main.09d4fc6a.css",
+    "main.js": "/bit08react/static/js/main.a9d6071a.js",
+    "index.html": "/bit08react/index.html",
+    "main.09d4fc6a.css.map": "/bit08react/static/css/main.09d4fc6a.css.map",
+    "main.a9d6071a.js.map": "/bit08react/static/js/main.a9d6071a.js.map"
   },
   "entrypoints": [
     "static/css/main.09d4fc6a.css",
