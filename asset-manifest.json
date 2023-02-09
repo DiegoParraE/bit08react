@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bit08react/static/css/main.09d4fc6a.css",
-    "main.js": "/bit08react/static/js/main.a9d6071a.js",
+    "main.js": "/bit08react/static/js/main.ebbb4ce3.js",
     "index.html": "/bit08react/index.html",
     "main.09d4fc6a.css.map": "/bit08react/static/css/main.09d4fc6a.css.map",
-    "main.a9d6071a.js.map": "/bit08react/static/js/main.a9d6071a.js.map"
+    "main.ebbb4ce3.js.map": "/bit08react/static/js/main.ebbb4ce3.js.map"
   },
   "entrypoints": [
     "static/css/main.09d4fc6a.css",
-    "static/js/main.a9d6071a.js"
+    "static/js/main.ebbb4ce3.js"
   ]
 }
