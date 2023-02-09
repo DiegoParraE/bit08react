@@ -37,23 +37,26 @@ function createNewTask(taskName) {
   }, [ tasksItems ])
 
   return (
-    <div className="App">
-      <TaskCreator createNewTask = {createNewTask}/>
-      <TaskTable tasks={tasksItems} toggleTask={toggleTask} />
-      <VisibilityControl
-        isChecked={showCompleted}
-        setShowCompleted={(checked) =>setShowCompleted (checked)}
-        cleanTasks={cleanTasks}
-      />
+    <main className="bg-dark vh-100 text-white" >
+      
+      <div className="container p-4 col-md-4 offset-md-4">
+        <TaskCreator createNewTask = {createNewTask}/>
+        <TaskTable tasks={tasksItems} toggleTask={toggleTask} />
+        <VisibilityControl
+          isChecked={showCompleted}
+          setShowCompleted={(checked) =>setShowCompleted (checked)}
+          cleanTasks={cleanTasks}
+        />
 
 
-      {
-        showCompleted === true && (
-          <TaskTable tasks={tasksItems} toggleTask={toggleTask} showCompleted={showCompleted} />
-        )
-      }
+        {
+          showCompleted === true && (
+            <TaskTable tasks={tasksItems} toggleTask={toggleTask} showCompleted={showCompleted} />
+          )
+        }
+      </div>
 
-    </div>
+    </main>
   );
 }
 
